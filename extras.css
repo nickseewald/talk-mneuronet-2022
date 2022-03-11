@@ -1,0 +1,62 @@
+.inverse a {
+  color: #00274c;
+    text-decoration: underline;
+}
+
+.inverse strong {
+  color: #00274c;
+}
+
+.title-slide {
+  background-image: url(titleslide.png);
+  background-size: 100%;
+  padding-left: 256px;
+  padding-right: 32px;
+  padding-top: 96px;
+  padding-bottom: 32px;
+}
+
+.inverse code {
+  color: #00274c;
+}
+
+.title-slide h1 {
+  font-size: 48pt;
+  margin-bottom: 36px;
+  margin-top: 0;
+  text-align: center;
+  background: rgba(0, 0, 0, 0);
+}
+
+.title-slide h2 {
+  font-size: 32pt;
+  margin-top: 0;
+  margin-bottom: .7em;
+}
+
+.title-slide h3 {
+  margin: .25em;
+  color: #fff;
+  font-family: Source Sans Pro;
+  text-align: center;
+}
+
+th {
+  color: #00274c;
+}
+
+tr:nth-child(even) > td {
+  color: #00274c;
+}
+
+h2 {
+  margin-top: .1em;
+}
+
+.smaller-code code {
+  font-size: 75%;
+}
+
+.smaller-text p {
+  font-size: 95%;
+}
