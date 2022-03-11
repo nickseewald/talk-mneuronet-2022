@@ -58,6 +58,7 @@ style_duo_accent(primary_color = "#002D72", # JHU Heritage Blue
 xaringanExtra::use_tachyons()
 xaringanExtra::use_scribble()
 xaringanExtra::use_fit_screen()
+xaringanExtra::use_share_again()
 ```
 
 
@@ -461,9 +462,9 @@ A SMART **is** appropriate here: _some_ participants are randomized more than on
 ## What if we know what to do initially?
 
 .fl.w-third[
-There are questions about only **one stage** of an adaptive intervention.
+There are questions about only **one stage** of a dynamic treatment regimen   .
 
-If there is no scientific question about how to initiate the adaptive intervention, we do not need the initial randomization.
+If there is no scientific question about how to initiate the dynamic treatment regimen, we do not need the initial randomization.
 ]
 
 .fl.w-two-thirds.dt.pa2[
@@ -547,7 +548,7 @@ Focus on a few scientific aims about developing a high-quality DTR.
 
 - **Primary aim:** Choose sample size based on this aim
   - Commonly a comparison of groups of experimental conditions
-  - Should be related to scientific questions about adaptive interventions
+  - Should be related to scientific questions about dynamic treatment regimens
 
 - **Secondary aims:** Leverage rich data on treatment sequences to further inform a more deeply-tailored DTR
 
@@ -658,7 +659,7 @@ Hypothetical hypothesis:
 ]
 
 .pull-right[
-- Analysis is *slightly* more complicated, but still 
+- Analysis is *slightly* more complicated, but still reasonable (think weighted regression)
 - Sample size formulae available (see additional resources)
 ]
 
@@ -666,7 +667,7 @@ Hypothetical hypothesis:
 # Questionable Primary Aims for SMARTs
 ### Comparison of individual subgroups / experimental conditions
 .pull-left[
-DTRs recommend treatments for every level of the tailorin variable.
+DTRs recommend treatments for every level of the tailoring variable.
 
 This is not a question about DTRs; therefore, it's not a strong motivation for a SMART.
 ]

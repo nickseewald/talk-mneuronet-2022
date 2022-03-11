@@ -11,6 +11,11 @@
     <script src="libs/xaringanExtra-scribble/scribble.js"></script>
     <script>document.addEventListener('DOMContentLoaded', function() { window.xeScribble = new Scribble({"pen_color":["#FF0000"],"pen_size":3,"eraser_size":30,"palette":[]}) })</script>
     <script src="libs/xaringanExtra_fit-screen/fit-screen.js"></script>
+    <script src="libs/clipboard/clipboard.min.js"></script>
+    <link href="libs/shareon/shareon.min.css" rel="stylesheet" />
+    <script src="libs/shareon/shareon.min.js"></script>
+    <link href="libs/xaringanExtra-shareagain/shareagain.css" rel="stylesheet" />
+    <script src="libs/xaringanExtra-shareagain/shareagain.js"></script>
     <link rel="stylesheet" href="xaringan-themer.css" type="text/css" />
     <link rel="stylesheet" href="extras.css" type="text/css" />
   </head>
@@ -424,9 +429,9 @@ A SMART **is** appropriate here: _some_ participants are randomized more than on
 ## What if we know what to do initially?
 
 .fl.w-third[
-There are questions about only **one stage** of an adaptive intervention.
+There are questions about only **one stage** of a dynamic treatment regimen   .
 
-If there is no scientific question about how to initiate the adaptive intervention, we do not need the initial randomization.
+If there is no scientific question about how to initiate the dynamic treatment regimen, we do not need the initial randomization.
 ]
 
 .fl.w-two-thirds.dt.pa2[
@@ -510,7 +515,7 @@ Focus on a few scientific aims about developing a high-quality DTR.
 
 - **Primary aim:** Choose sample size based on this aim
   - Commonly a comparison of groups of experimental conditions
-  - Should be related to scientific questions about adaptive interventions
+  - Should be related to scientific questions about dynamic treatment regimens
 
 - **Secondary aims:** Leverage rich data on treatment sequences to further inform a more deeply-tailored DTR
 
@@ -621,7 +626,7 @@ Hypothetical hypothesis:
 ]
 
 .pull-right[
-- Analysis is *slightly* more complicated, but still 
+- Analysis is *slightly* more complicated, but still reasonable (think weighted regression)
 - Sample size formulae available (see additional resources)
 ]
 
@@ -629,7 +634,7 @@ Hypothetical hypothesis:
 # Questionable Primary Aims for SMARTs
 ### Comparison of individual subgroups / experimental conditions
 .pull-left[
-DTRs recommend treatments for every level of the tailorin variable.
+DTRs recommend treatments for every level of the tailoring variable.
 
 This is not a question about DTRs; therefore, it's not a strong motivation for a SMART.
 ]
