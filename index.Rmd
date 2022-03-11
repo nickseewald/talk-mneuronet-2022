@@ -78,7 +78,9 @@ class: inverse, center, middle
 
 # Follow along!
 
-Slides are available at []()
+Slides are available at [https://slides.nickseewald.com/talk-mneuronet-2022](https://slides.nickseewald.com/talk-mneuronet-2022)
+
+![:scale 20%](images/slides-qr.png)
 
 Materials are partially adapted from workshops given by the [d3lab](https://d3lab.isr.umich.edu) at the University of Michigan Institute for Social Research and from `r TextCite(bib, "seewaldSequentialMultipleAssignment2021")`.
 
